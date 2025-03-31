@@ -20,5 +20,14 @@ public class App {
 
         Desafio5 desafio5 = new Desafio5(numeros);
         System.out.println("Média de números maiores do que 5: " + desafio5.calculaMediaMaioresQueCinco());
+
+        Desafio6 desafio6 = new Desafio6(numeros);
+        System.out.println("Números maiores do que 10: " + desafio6.verificaMaiorQueDez());
+
+        Desafio7 desafio7 = new Desafio7(numeros);
+        System.out.println("Segundo maior número: " + desafio7.segundoMaior());
+
+        Desafio8 desafio8 = new Desafio8(numeros);
+        System.out.println("Soma dos dígitos da lista: " + desafio8.somaDosDigitosDaLista());
     }
 }
